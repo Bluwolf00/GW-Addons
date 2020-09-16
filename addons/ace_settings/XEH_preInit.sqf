@@ -70,7 +70,12 @@ ACE_MaxWeightCarry = 10000;
 ["CBA_settingsInitializedDelayed", {
 	private _configList = "";
 	if (GVARMAIN(mod_ACE3_Med_New)) then {
+		
 		_configList = (preprocessFile "x\gw\addons\ACE_Settings\Settings\medical_new.sqf");
+		
+		if (EGVAR(settings_ACE,medical_level) isEqualTo 2) then {
+			_configList = (preprocessFile "x\gw\addons\ACE_Settings\Settings\medical_new_adv.sqf");
+		};
 	} else {
 //		_configList = (preprocessFile "x\gw\addons\ACE_Settings\Settings\medical_Legacy_basic.sqf");
 		if (EGVAR(settings_ACE,medical_level) isEqualTo 2) then {
