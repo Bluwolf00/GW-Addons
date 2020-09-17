@@ -1,4 +1,11 @@
 # GW-Addons
+
+# Issues
+addons\gameloop\XEH_postInit.sqf - Line 8 - Generic Error - About safe start.
+
+
+
+
 Collection of addons made for GOL-Clan and the reason for this mod is simple, Updated with new standards for performance and easy structure.
 It is also modular similar to CBA in that way.
 Most functions are created by myself or someone in GOL, however if not, that person have been credited in that function
