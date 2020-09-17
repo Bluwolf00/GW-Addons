@@ -3,8 +3,7 @@
 # Issues
 addons\gameloop\XEH_postInit.sqf - Line 8 - Generic Error - About safe start.
 
-
-
+# Main
 
 Collection of addons made for GOL-Clan and the reason for this mod is simple, Updated with new standards for performance and easy structure.
 It is also modular similar to CBA in that way.
