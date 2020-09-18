@@ -8,7 +8,7 @@
 
 [QGVAR(civiKillTracker), "CHECKBOX", ["Display Civilians Killed", "Globaly displays a chat message when a civilian is killed"], [QUOTE(ADDON), "General"], false, CBA_SERVEROVERWRITE, {}, CBA_NEEDRESTART] call CBA_settings_fnc_init;
 
-private _index = 0;
+private _index = -1;
 if ((isClass(missionConfigFile >> "GW_FRAMEWORK")) && !(isClass(missionConfigFile >> "GW_Modules" >> "StartUp"))) then {
 	_index = 1;
 };
