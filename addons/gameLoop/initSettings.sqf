@@ -16,7 +16,7 @@ if ((isClass(missionConfigFile >> "GW_FRAMEWORK")) && !(isClass(missionConfigFil
 [
 	QGVAR(SafeMode_useType), "LIST",
 	["Safe Start Mode", ""],
-	[QUOTE(ADDON), "SafeMode"], [[0,1,2], ["Disabled", "Countdown", "Admin Only"], _index],
+	[QUOTE(ADDON), "SafeMode"], [[-1,1,2], ["Disabled", "Countdown", "Admin Only"], _index],
 	CBA_SERVEROVERWRITE, {}, CBA_NEEDRESTART
 ] call CBA_settings_fnc_init;
 
