@@ -1,9 +1,7 @@
 # GW-Addons
 
 # Issues
-addons\gameloop\XEH_postInit.sqf - Line 8 - Generic Error - About safe start.<br/>
-Cause:<br/>
-addons\gameloop\initSettings.sqf - Line 19 - Listbox of 3 values (0, 1, 2) being read as boolean (true, false), doesn't include 3rd value.
+Framework Errors complete, additional changes to be made to addon before release.
 
 # Main
 
