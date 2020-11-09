@@ -1,7 +1,12 @@
 # GW-Addons
 
 # Issues
-Framework Errors complete, additional changes to be made to addon before release.
+Framework Errors complete, additional changes to be made to addon before release.</br>
+
+* Fix Equipment Box Static Weapons Retrieval and Packing Of Statics.</br>
+* Update ACE Settings.</br>
+* Update TFAR Settings.</br>
+* Pack Addon.
 
 # Main
 
