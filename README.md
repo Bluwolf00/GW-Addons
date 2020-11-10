@@ -1,8 +1,7 @@
 # GW-Addons
 
 # Issues
-Framework Errors complete, additional changes to be made to addon before release.</br>
-
+* Duplicated System Text with both the addon and the framework displaying messages (Safestart)
 * Fix Equipment Box Static Weapons Retrieval and Packing Of Statics.</br>
 * Update ACE Settings.</br>
 * Update TFAR Settings.</br>
